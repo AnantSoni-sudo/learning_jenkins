@@ -9,6 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Response<T> {
 
+	{
+		System.out.println("Change");
+	}
+	
 	private boolean error;
 	private String message;
 	T data;
